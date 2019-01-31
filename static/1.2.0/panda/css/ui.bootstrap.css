@@ -1,0 +1,35 @@
+/** bootstrap modify */
+.text-warning {
+	/*color: #8a6d3b;*/
+	color: #ffa500;
+}
+
+/** disable bootstrap not-allowed cursor */
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+	cursor: auto;
+}
+
+/** modal-dialog */
+.modal-dialog {
+	z-index: 1050;
+}
+
+/** navbar-nav */
+.navbar-nav > li > span {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	line-height: 20px;
+}
+
+@media (min-width: 768px) {
+	.navbar-nav > li > span {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}
+.navbar-default .navbar-nav > li > span {
+	color: #777;
+}
+.navbar-inverse .navbar-nav > li > span {
+	color: #9d9d9d;
+}

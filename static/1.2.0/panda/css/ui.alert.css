@@ -1,0 +1,37 @@
+.p-alert {
+	margin: 5px 0 15px 0;
+}
+
+/** alternative for bootstrap text-* */
+.p-error {
+	color: #a94442;
+}
+.p-warn {
+	color: #ffa500;
+}
+.p-info {
+	color: #31708f;
+}
+.p-success {
+	color: #3c763d;
+}
+
+.p-alert i.fa-li, ul.p-field-errors i.fa-li {
+	font-size: 200%;
+	left: -30px;
+	top: 0;
+	width: auto;
+}
+.p-alert li, ul.p-field-errors li {
+	padding: 5px 0;
+}
+
+/*
+.p-field-errors {
+	color: #b94a48;
+}
+*/
+
+.p-field-errors-caret {
+	font-size: 80%;
+}

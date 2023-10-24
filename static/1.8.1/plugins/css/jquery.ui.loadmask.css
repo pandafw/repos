@@ -1,0 +1,64 @@
+.ui-loadmask-mask {
+	background-color: #ccc;
+	opacity: .25;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 2900;
+	zoom: 1;
+}
+
+.ui-loadmask {
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	-webkit-transform: translate(-50%, -50%);
+	z-index: 2901;
+}
+
+.ui-loadmask-load {
+	padding: 20px;
+}
+
+.ui-loadmask-hasmsg {
+	border: solid 1px #ADD8E6;
+	background-color: #fff;
+	opacity: 0.9;
+}
+.ui-loadmask-icon {
+	width: 40px;
+	height: 40px;
+	display: table-cell;
+	vertical-align: middle;
+	border: 4px #ddd solid;
+	border-top: 4px #2e93e6 solid;
+	border-radius: 50%;
+	animation: ui-loadmask-sp-anime 0.8s infinite linear;
+}
+
+@keyframes ui-loadmask-sp-anime {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.ui-loadmask .ui-loadmask-text {
+	color: #222;
+	padding: 0 10px 0 20px;
+	margin: 0 0 0 50px;
+	text-align: left;
+	white-space: pre-wrap;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+.ui-loadmasked-relative {
+	position: relative !important;
+}
+
